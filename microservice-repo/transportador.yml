@@ -1,0 +1,10 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/transportador
+    username: root
+    password: maria123
+    driver-class-name: com.mysql.cj.jdbc.Driver
